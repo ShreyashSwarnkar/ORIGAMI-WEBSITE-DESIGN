@@ -1,0 +1,94 @@
+body{
+    margin: auto;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    background-color: whitesmoke;
+}
+html{
+    border: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+h1{
+    color: rgb(160, 23, 23);
+    border: solid;
+    background: skyblue;
+    border-block-color: skyblue;
+    border-left-color: skyblue;
+    border-right-color: skyblue;
+}
+
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+ul{
+    font-style: oblique;
+    font-size: larger;
+}
+.bodyimg img{
+    border: none;
+    border-radius: unset;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration-line: none;
+    text-align: center;
+    font-style: normal;
+}
+.para{
+    position: absolute;
+    top: 10%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+}
+.para1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+    float: left;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
