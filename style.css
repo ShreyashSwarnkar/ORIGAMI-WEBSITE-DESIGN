@@ -1,0 +1,123 @@
+body{
+    margin: 2px;
+    background-color: #000000;
+}
+
+html{
+    border: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #e9871fea;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+.para{
+    position: absolute;
+    top: 10%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    color: #6354e8e3;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.para1{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: #c45a5ac9;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px; 
+}
+
+img{
+    border: 2px solid #ffffff;
+    border-radius: 50px; 
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #c9e25ae5;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration-line: none;
+    text-align: center;
+    font-style: normal;
+    padding: 8px
+}
+
+.bodyimg img{
+    border: none;
+    border-radius: unset;
+}
+
+p{
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
+
+ul{
+    font-style: oblique;
+    font-size: larger;
+    color: #da2840d5;
+}
+
+.origami img{
+    background-color: #c2acac;
+    opacity: 1;
+}
+
+.origami p{
+    position:relative;
+    left: 0px;
+    top: -140px;
+    opacity: 0;
+}
+
+.point:hover p{
+    opacity: 1;
+    text-decoration: none;
+}
+
+.point:hover img{
+    opacity: 0.55;
+}
+
+a:-webkit-any-link {
+    text-decoration-line: none;
+}
+
+.point a:link{
+    color: #eb6117e3;
+}
+
+.point a:visited{
+    color: #258ebfe3;
+}
